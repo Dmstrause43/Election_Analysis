@@ -69,7 +69,7 @@ The analysis of the election show that:
 ## Challenge Summary
 
  This code can be used for any election. Small changes may be necessary, but would allow for any election voting results to be summarized in a much quicker than doing it through excel or manually. The two main areas of the script that would need to be changed are the following:
- - 1) "Line9: file_to_load = os.path.join("Resources", "election_results.csv")
+ 1) "Line9: file_to_load = os.path.join("Resources", "election_results.csv")
    - The above code represents the path that the script is pulling data from. In this case, it is pulling the file named "election_results.csv" from my "Resources" folder. These two parts may need to be renamed depending on what the file pathway is to the data you are trying to pull and what the file is called.
- - 2) "Line11: file_to_save = os.path.join("analysis", "election_results.txt")
+ 2) "Line11: file_to_save = os.path.join("analysis", "election_results.txt")
   - Similar to the above situation, this text describes where the output of our data will go. So depending on where you want the text file to end up and what you want the text file to be named, you will have to edit those two areas as well. 
